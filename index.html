@@ -24,10 +24,11 @@
            { name: "中国-巴新友谊学校·布图卡学园教师住房项目", lat: -9.495048, lng: 147.193279, desc: "巴布亚新几内亚首都莫尔兹比港，宁静的小渔村基拉基拉村旁边，崭新的布图卡学园里面传出朗朗读书声。走进布图卡学园，郁郁葱葱的绿植映入眼帘，一声声清脆的鸟叫声更显校园的和谐。" }
 ];
         projects.forEach(project => {
-            L.marker([project.lat, project.lng])
-                .bindPopup(`<b>${project.name}</b><br>${project.desc}`)
-                .addTo(map);
-        });
+           L.marker([project.lat, project.lng], {
+    icon: L.icon({ 
+        iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png' // 红色标记
+    })
+})
     </script>
 </body>
 </html>
