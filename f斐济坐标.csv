@@ -1,0 +1,12 @@
+项目名称（英文）,项目名称（中文）,类型,所在岛屿,具体位置,纬度,经度,来源,备注
+Stinson Parade Bridge (Suva),苏瓦斯廷森大道桥,"Bridge (reconstruction, China grant)",Viti Levu,Nabukalou Creek crossing at Stinson Parade,-18.1368,178.4243,"geoview (Stinson Parade, bridge=yes)",位于首都苏瓦市中心，跨越Nabukalou溪流，是城市交通枢纽桥梁之一
+Vatuwaqa Bridge (Suva),苏瓦瓦图瓦卡桥,"Bridge (reconstruction, China grant)",Viti Levu,Vatuwaqa River crossing near Fletcher/Grantham corridor,-18.13912,178.45861,mindat (Vatuwaqa River feature),跨越瓦图瓦卡河，连接苏瓦城区与周边社区的重要桥梁
+Nabouwalu–Dreketi Road (Vanua Levu),纳布瓦卢—德雷凯提公路,Road upgrade (policy loan),Vanua Levu,Project reference point (Lowy Aid Map),-16.983611,178.686944,Lowy Pacific Aid Map,贯穿瓦努阿莱武岛西部与北部的主要干线，全长约70公里
+Buca Bay Road (Cakaudrove),布卡湾公路,Road upgrade (policy loan),Vanua Levu,Buca Bay Road (representative point),-16.71725,179.72485,Mapcarta (Buca Bay Road),位于瓦努阿莱武岛Cakaudrove省，连接沿海港口与内陆村落
+Moto Road (Ba Province),莫托公路,Road upgrade (policy loan),Viti Levu,Moto Road (representative point),-17.59368,177.68651,Mapcarta (Moto Road),位于维提岛Ba省，改善农业区与城镇之间的交通条件
+Sigatoka Valley Road (Western),锡加托卡河谷公路,Road upgrade (policy loan),Viti Levu,Sigatoka Valley Road near Lawai (representative point),-18.131111,177.513611,Wikimapia (Sigatoka Valley Road),维提岛西部，连接主要农产区与锡加托卡镇，是“蔬菜篮子”走廊
+Sawani–Serea Road (Naitasiri),萨瓦尼—塞雷阿公路,Road upgrade (policy loan),Viti Levu,Sawani–Serea Road (representative point),-18.02764,178.4664,Mapcarta / Mindat (Sawani–Serea Road),贯穿维提岛内陆Naitasiri省山区的重要通道
+Vanua Levu Roads + 22 Bridges (proposal),瓦努阿莱武岛道路与22座桥梁综合项目,Multi-site program (feasibility completed),Vanua Levu,Island centroid (project spans multiple sites),-16.626822,179.017929,latlong.net (Vanua Levu centroid),2024年提出，2025年完成可行性研究，覆盖61个村庄和15所学校
+,,,,,,,,
+"说明：
+为避免“线性工程”的歧义（如整条公路很长），采用“桥梁=桥位点”“公路=典型/中段代表点或官方项目定位点”的方式标注；多点分布的方案（如“Vanua Levu 22座桥”）用岛屿代表点标注。桥梁类项目使用桥位或紧邻河段的 OSM/GeoNames 派生点；公路类项目给出一个“代表点”",,,,,,,,
