@@ -7,6 +7,7 @@
         #map { height: 600px; }
         .leaflet-popup-content { max-width: 300px; }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 </head>
 <body>
     <div id="map"></div>
@@ -29,6 +30,30 @@
         iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png' // 红色标记
     })
 })
+            // 读取 CSV 文件并在地图上加点
+function addCsvPoints(csvUrl, color) {
+  Papa.parse(csvUrl, {
+    download: true,
+    header: true,
+    complete: function(results) {
+      results.data.forEach(row => {
+        if (!row.lat || !row.lng) return;
+        const marker = L.circleMarker([parseFloat(row.lat), parseFloat(row.lng)], {
+          radius: 6,
+          color: color || 'blue',
+          fillOpacity: 0.8
+        }).addTo(map);
+        marker.bindPopup(`<b>${row.name || '未命名项目'}</b><br>${row.remark || row.desc || ''}<br>坐标：${row.lat}, ${row.lng}`);
+      });
+    }
+  });
+}
+
+// ✅ 加载两个 CSV 文件
+addCsvPoints('斐济坐标.csv', 'red');
+addCsvPoints('萨摩亚坐标.csv', 'green');
+
     </script>
 </body>
 </html>
+
